@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300;1,500;1,600&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #9B59B6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box
+{
+    width: 800px;
+    min-height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#item
+{
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 0;
+    outline: 0;
+    box-shadow: 2px 2px 9px grey;
+}
+
+#SaveTodo
+{
+    border-radius: 10px;
+    font-weight: bolder;
+    width: 100px;
+    font-size: 18px;
+    border: 0;
+    box-shadow: 2px 2px 9px grey;
+}
+
+#to-do-box
+{
+    box-shadow: 2px 2px 9px grey;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+#to-do-box li
+{
+    font-size: 18px;
+    background-color: #8e44ad;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    padding-right: 50px !important;
+    text-align: justify;
+    margin-top: 10px;
+    user-select: none;
+    padding: 15px;
+}
+
+#to-do-box li i
+{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.fa-times
+{
+    color: white;
+    padding: auto;
+}
+
+.done
+{
+    text-decoration: line-through;
+    color: black;
+    opacity: 0.9;
+}
+
+.task
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: chocolate;
+}
